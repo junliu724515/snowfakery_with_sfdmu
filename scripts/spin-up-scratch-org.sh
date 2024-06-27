@@ -2,7 +2,7 @@
 
 # Step 1: Create a new scratch org
 echo "Creating a new scratch org..."
-sf org create scratch --definition-file config/project-scratch-def.json --alias SnowfakeryDemo --target-dev-hub JM_PBO
+sf org create scratch --definition-file config/project-scratch-def.json --alias SnowfakeryDemo --target-dev-hub {{your DevHub}}
 
 ## Step 2: deploy code
 sf project deploy start  --target-org SnowfakeryDemo
