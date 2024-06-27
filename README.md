@@ -1,4 +1,4 @@
-# Automate Salesforce Scratch Org Data Seeding with Snowfakery and SFDMU
+# Automate Salesforce Sandbox/Scratch Org Data Seeding with Snowfakery and SFDMU
 
 ## Description
 
