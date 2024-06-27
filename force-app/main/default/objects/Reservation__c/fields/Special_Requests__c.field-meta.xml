@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Special_Requests__c</fullName>
+    <externalId>false</externalId>
+    <label>Special Requests</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Extra pillows</fullName>
+                <default>false</default>
+                <label>Extra pillows</label>
+            </value>
+            <value>
+                <fullName>Late check-in</fullName>
+                <default>false</default>
+                <label>Late check-in</label>
+            </value>
+            <value>
+                <fullName>Early check-out</fullName>
+                <default>false</default>
+                <label>Early check-out</label>
+            </value>
+            <value>
+                <fullName>High floor</fullName>
+                <default>false</default>
+                <label>High floor</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
