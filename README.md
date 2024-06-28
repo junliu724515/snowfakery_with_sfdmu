@@ -55,4 +55,8 @@ sf sfdmu run --sourceusername csvfile  --targetusername {{your target org}} --pa
 ```bash
 ./scripts/spin-up-scratch-org.sh
 ```
+3. Or run window batch file if you use windows.
+```bash
+./scripts/spin-up-scratch-org.bat
+```
     
